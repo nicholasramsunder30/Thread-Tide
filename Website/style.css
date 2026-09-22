@@ -1,0 +1,414 @@
+/* Thread & Tide - Part 2 Stylesheet */
+
+/* ---------- CSS RESET ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid #d71920;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid #dddddd;
+}
+
+nav a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #d71920;
+    color: #ffffff;
+}
+
+nav a:active {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #111111;
+    border-left: 5px solid #d71920;
+    padding-left: 0.75rem;
+}
+
+main h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main p {
+    margin-bottom: 1rem;
+    max-width: 850px;
+}
+
+/* ---------- IMAGES ---------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+main > img {
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+/* ---------- HOME PAGE ---------- */
+
+main img[alt="Thread & Tide fashion collection"] {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+main img[alt="Graphic crop tee"],
+main img[alt="Denim jacket"],
+main img[alt="Floral wrap dress"] {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+main img[alt="Graphic crop tee"]:hover,
+main img[alt="Denim jacket"]:hover,
+main img[alt="Floral wrap dress"]:hover {
+    transform: scale(1.03);
+}
+
+/* ---------- PRODUCT PAGE ---------- */
+
+main h2 + img {
+    margin-bottom: 0.75rem;
+}
+
+main h2 + img + p {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+main h2 + img + p + p {
+    color: #555555;
+}
+
+/* ---------- LINKS ---------- */
+
+main a {
+    color: #d71920;
+    font-weight: 700;
+}
+
+main a:hover {
+    color: #111111;
+}
+
+/* ---------- FORMS ---------- */
+
+form {
+    max-width: 650px;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #d71920;
+    border-color: #d71920;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #d71920;
+    color: #ffffff;
+    border: 2px solid #d71920;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #111111;
+    border-color: #111111;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* ---------- CONTACT PAGE ---------- */
+
+main img[alt="Map showing Thread & Tide store locations"] {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    border: 2px solid #dddddd;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-top: 4px solid #d71920;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ---------- TABLET ---------- */
+
+@media (max-width: 900px) {
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    main {
+        width: 92%;
+        padding: 2.5rem 0;
+    }
+
+    main h2 {
+        font-size: 1.8rem;
+    }
+
+    main img[alt="Graphic crop tee"],
+    main img[alt="Denim jacket"],
+    main img[alt="Floral wrap dress"] {
+        width: 30%;
+    }
+
+    nav {
+        gap: 0.25rem;
+    }
+
+    nav a {
+        padding: 0.5rem 0.7rem;
+    }
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.05em;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0.75rem;
+    }
+
+    nav a {
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+        width: 92%;
+        padding: 2rem 0;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+    main h3 {
+        font-size: 1.15rem;
+    }
+
+    main img[alt="Graphic crop tee"],
+    main img[alt="Denim jacket"],
+    main img[alt="Floral wrap dress"] {
+        display: block;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    form {
+        padding: 1.25rem;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 1.5rem 1rem;
+    }
+}
+/* ---------- PRODUCT GRID ---------- */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    color: #111111;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .product-name {
+    color: #d71920;
+    font-weight: 700;
+}
+
+.product-card p {
+    color: #555555;
+}
+
+/* ---------- PRODUCT GRID - TABLET ---------- */
+
+@media (max-width: 900px) {
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* ---------- PRODUCT GRID - MOBILE ---------- */
+
+@media (max-width: 600px) {
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card img {
+        height: auto;
+        max-height: 350px;
+    }
+
+}
