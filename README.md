@@ -123,3 +123,99 @@ REFERENCES
 MDN Web Docs (2026) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
 
 MDN Web Docs (2026) HTML forms. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms 
+
+PART 2 – WEBSITE STYLING AND RESPONSIVE DESIGN
+
+PART 2 OVERVIEW
+
+Part 2 focused on improving the Thread & Tide website by adding CSS styling and responsive design. An external CSS stylesheet was created and applied to all website pages to improve the overall appearance, layout and consistency of the website.
+
+The website was styled using a black, white and red colour scheme. CSS was used to control typography, spacing, navigation, images, forms, buttons and product cards.
+
+STYLING AND LAYOUT
+
+An external stylesheet called style.css was created for the website.
+
+The stylesheet includes:
+
+• CSS reset and base styling.
+• Font family, font size, font weight and line height.
+• Website colours and backgrounds.
+• Navigation styling.
+• Image sizing and spacing.
+• Form styling.
+• Button styling.
+• Borders, rounded corners and box shadows.
+• Hover, focus and active states.
+• Responsive layouts using CSS Flexbox and CSS Grid.
+
+The Products page uses CSS Grid to display product cards. The grid changes depending on the screen size so that the products remain easy to view on different devices.
+
+RESPONSIVE DESIGN
+
+Responsive design was added to allow the website to adapt to different screen sizes.
+
+The website includes breakpoints for:
+
+• Desktop screens.
+• Tablet screens.
+• Mobile screens.
+
+Media queries were used to change the navigation, product grid, images, forms, spacing and typography for smaller screens.
+
+A viewport meta tag was also added to the HTML pages so that the website displays correctly on mobile devices.
+
+TESTING
+
+The website was tested at different screen sizes to check that the layout, navigation, images and content remained usable.
+
+The following screen sizes were tested:
+
+Desktop – 1140 × 900
+
+Tablet – 768 × 1024
+
+Mobile – 375 × 667
+
+The website displayed correctly at all three tested sizes. The navigation, images, product layout and forms adapted to the different screen sizes.
+
+TESTING SCREENSHOTS
+
+Desktop Testing
+
+![Desktop Testing](Website/screenshots/desktop.png)
+
+Tablet Testing
+
+![Tablet Testing](Website/screenshots/tablet.png)
+
+Mobile Testing
+
+![Mobile Testing](Website/screenshots/mobile.png)
+
+PART 2 CHANGELOG
+
+• Created an external style.css stylesheet.
+• Added a CSS reset and base website styling.
+• Added the Thread & Tide black, white and red colour scheme.
+• Added typography and spacing styles.
+• Styled the website navigation.
+• Added hover, focus and active states.
+• Added responsive image styling.
+• Added CSS Grid for the product layout.
+• Added product cards with borders and box shadows.
+• Added desktop, tablet and mobile media queries.
+• Improved form and button styling.
+• Added mobile viewport settings.
+• Tested the website at desktop, tablet and mobile screen sizes.
+• Added screenshots showing responsive testing.
+
+REFERENCES
+
+MDN Web Docs (2026) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+MDN Web Docs (2026) CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
+
+MDN Web Docs (2026) CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout
+
+MDN Web Docs (2026) CSS media queries. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries
