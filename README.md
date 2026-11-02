@@ -219,3 +219,101 @@ MDN Web Docs (2026) CSS Grid Layout. Available at: https://developer.mozilla.org
 MDN Web Docs (2026) CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout
 
 MDN Web Docs (2026) CSS media queries. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries
+
+PART 3 OVERVIEW
+
+Part 3 focused on enhancing the Thread & Tide website by adding JavaScript functionality, improving user interaction, and implementing search engine optimisation (SEO).
+
+The website was enhanced to provide users with a more interactive and user-friendly experience.
+
+FUNCTIONALITY AND INTERACTIVE FEATURES
+
+The following features were implemented:
+
+Product search functionality.
+
+Product category filtering.
+
+A message displayed when no products match the search or filter.
+
+Product image lightbox with a close button.
+
+Lightbox closing when clicking outside the image or pressing the Escape key.
+
+Enquiry form validation with a success message.
+
+Contact form validation with a success message.
+
+FAQ accordion on the Contact Us page.
+
+Back-to-top button on the Contact Us page.
+
+Product card hover animations.
+
+The forms provide client-side validation and feedback. They do not send or store submissions because the website does not use a backend service.
+
+SEARCH ENGINE OPTIMISATION
+
+SEO improvements were implemented across the website, including:
+
+Page titles and meta descriptions for all six HTML pages.
+
+Descriptive alternative text for website images.
+
+Internal navigation links between website pages.
+
+A robots.txt file.
+
+A sitemap.xml file.
+
+TESTING
+
+The website was tested to confirm that the interactive features and forms function correctly.
+
+The product search and category filters were tested, along with the image lightbox, FAQ accordion, back-to-top button, and form validation.
+
+The website was also deployed using GitHub Pages and tested through its live URL.
+
+LIVE WEBSITE
+
+The Thread & Tide website is available at:
+
+https://nicholasramsunder30.github.io/Thread-Tide/
+
+PART 3 CHANGELOG
+
+Added product search and category filtering.
+
+Added a no-results message for product searches.
+
+Added a product image lightbox.
+
+Added enquiry form validation.
+
+Added contact form validation.
+
+Added an FAQ accordion.
+
+Added a back-to-top button.
+
+Added product card hover animations.
+
+Added SEO page titles and meta descriptions.
+
+Checked and improved image alt text.
+
+Created robots.txt and sitemap.xml.
+
+Updated the SEO files with the live website URL.
+
+Deployed the website using GitHub Pages.
+
+Tested the deployed website.
+
+PART 3 REFERENCES
+
+MDN Web Docs (2026) JavaScript. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+MDN Web Docs (2026) Client-side form validation. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+
+Google Search Central (2026) SEO Starter Guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
