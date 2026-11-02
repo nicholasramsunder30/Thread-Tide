@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>...</title>
+    <title>Contact Thread & Tide | Clothing Store South Africa</title>
+<meta name="description" content="Contact Thread & Tide for clothing enquiries, store locations, opening hours, delivery questions and customer support in Durban and Umhlanga, South Africa.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -57,29 +58,95 @@
 
         <p>Have a question? Send us a message and we will get back to you.</p>
 
-        <form>
+        <form id="contactForm">
 
-            <label for="fullname">Full Name</label><br>
-            <input type="text" id="fullname" name="fullname"><br><br>
+    <label for="contactFullname">Full Name</label><br>
+    <input
+        type="text"
+        id="contactFullname"
+        name="fullname"
+        required
+        minlength="2"
+    ><br><br>
 
-            <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email"><br><br>
+    <label for="contactEmail">Email Address</label><br>
+    <input
+        type="email"
+        id="contactEmail"
+        name="email"
+        required
+    ><br><br>
 
-            <label for="subject">Subject</label><br>
-            <input type="text" id="subject" name="subject"><br><br>
+    <label for="subject">Subject</label><br>
+    <input
+        type="text"
+        id="subject"
+        name="subject"
+        required
+        minlength="3"
+    ><br><br>
 
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
+    <label for="contactMessage">Message</label><br>
+    <textarea
+        id="contactMessage"
+        name="message"
+        rows="6"
+        cols="40"
+        required
+        minlength="10"
+    ></textarea><br><br>
 
-            <button type="submit">Send Message</button>
+    <button type="submit">Send Message</button>
 
-        </form>
+    <p id="contactFeedback" role="status"></p>
+
+</form>
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <details class="faq-item">
+                <summary>How long does delivery take?</summary>
+                <p>Orders are usually delivered within 3 to 5 business days.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Can I return or exchange an item?</summary>
+                <p>
+                    Yes. Please contact us with your order details
+                    to enquire about a return or exchange.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How do I choose the right size?</summary>
+                <p>
+                    Please refer to the size information provided
+                    with each product before placing your order.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How can I contact Thread & Tide?</summary>
+                <p>
+                    You can email hello@threadandtide.co.za
+                    or use the contact form above.
+                </p>
+            </details>
+        </section>
 
     </main>
 
     <footer>
         <p>&copy; 2026 Thread & Tide. All rights reserved.</p>
     </footer>
-
+    <button
+    type="button"
+    id="backToTop"
+    class="back-to-top"
+    aria-label="Back to top"
+>
+    TOP
+</button>
+<script src="contact.js"></script>
 </body>
 </html>

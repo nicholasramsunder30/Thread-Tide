@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Thread & Tide - Products</title>
+    <title>Shop Clothing | Thread & Tide South Africa</title>
+<meta name="description" content="Explore the Thread & Tide clothing collection, including tops, bottoms, dresses, jackets and accessories. Find your next everyday style in South Africa.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,7 +30,29 @@
             Explore our clothing collection and find something
             that suits your personal style.
         </p>
+<div class="product-search">
+    <label for="productSearch">Search our collection</label>
+    <input
+        type="search"
+        id="productSearch"
+        placeholder="Search tops, dresses, jackets..."
+        aria-label="Search products"
+    >
 
+    <label for="categoryFilter">Filter by category</label>
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="tops">Tops</option>
+        <option value="bottoms">Bottoms</option>
+        <option value="dresses">Dresses</option>
+        <option value="jackets">Jackets</option>
+        <option value="accessories">Accessories</option>
+    </select>
+</div>
+
+<p id="noProductsMessage" hidden>
+    No products found. Try another search.
+</p>
         <div class="product-grid">
 
             <div class="product-card">
@@ -83,12 +106,21 @@
             </div>
 
         </div>
+                <dialog id="imageLightbox" class="lightbox">
+            <button type="button" id="closeLightbox"
+                class="lightbox-close" aria-label="Close image">
+                &times;
+            </button>
+
+            <img id="lightboxImage" src="" alt="">
+            <p id="lightboxCaption"></p>
+        </dialog>
 
     </main>
 
     <footer>
         <p>&copy; 2026 Thread & Tide. All rights reserved.</p>
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
