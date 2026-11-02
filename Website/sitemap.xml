@@ -2,27 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://YOUR-LIVE-DOMAIN/index.html</loc>
+       <loc>https://nicholasramsunder30.github.io/Thread-Tide/index.html</loc>
+
+    <url>
+       <loc>https://nicholasramsunder30.github.io/Thread-Tide/About.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-LIVE-DOMAIN/About.html</loc>
+        <loc>https://nicholasramsunder30.github.io/Thread-Tide/Services.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-LIVE-DOMAIN/Services.html</loc>
+        <loc>https://nicholasramsunder30.github.io/Thread-Tide/Products.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-LIVE-DOMAIN/Products.html</loc>
+        <loc>https://nicholasramsunder30.github.io/Thread-Tide/Enquiry.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-LIVE-DOMAIN/Enquiry.html</loc>
-    </url>
-
-    <url>
-        <loc>https://YOUR-LIVE-DOMAIN/Contact%20Us.html</loc>
+        <loc>https://nicholasramsunder30.github.io/Thread-Tide/Contact%20Us.html</loc>
     </url>
 
 </urlset>

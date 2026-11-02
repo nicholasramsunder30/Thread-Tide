@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-LIVE-DOMAIN/sitemap.xml
+Sitemap: <loc>https://nicholasramsunder30.github.io/Thread-Tide/index.html</loc>
